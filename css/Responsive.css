@@ -1,0 +1,163 @@
+/* XL Device :1200px. */
+
+@media (min-width: 1200px) and (max-width: 1500px) {
+    .header-right ul li {
+        display: inline-block;
+        margin-left: 33px;
+    }
+
+    .form-content form input {
+
+        width: 413px;
+    }
+}
+
+/* LG Device :992px. */
+
+@media (min-width: 992px) and (max-width: 1200px) {
+    .main-menu ul li {
+
+        margin-right: 50px;
+    }
+
+    .header-right ul li {
+        margin-left: 18px;
+    }
+
+    .form-content form input {
+
+        width: 372px;
+    }
+}
+
+/* MD Device :768px. */
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .form-content form input {
+
+        width: 293px;
+    }
+
+    .single-slider {
+        height: 500px;
+
+    }
+
+    .product-tab .nav a {
+        margin-right: 34px;
+    }
+
+    .footer-widget {
+        padding: 80px 0px;
+    }
+}
+
+/* Extra small Device. */
+
+@media (max-width: 767px) {
+
+    .product-tab .nav a {
+        margin-right: 15px;
+    }
+
+    #nav-tab {
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+    }
+
+    #nav-tab-1 {
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+    }
+
+    .single-slider {
+
+        height: 220px;
+        padding-left: 25px;
+    }
+
+    .slider-wrapper h2 {
+
+        font-size: 22px;
+
+        margin-bottom: 16px;
+    }
+
+    .slider-wrapper p {
+
+        line-height: 1.5;
+        margin-bottom: 20px;
+    }
+
+    .product-tab .nav a:hover {
+        border-bottom: none;
+    }
+
+    form {
+        padding: 0 15px;
+    }
+
+    .form-content form input {
+
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .footer-widget {
+        padding: 40px 0px;
+    }
+
+    .menu-bottom-left ul li {
+        margin-right: 7px;
+    }
+
+    .menu-bottom-left ul li a {
+
+        font-size: 10px;
+    }
+
+    .mt-145 {
+        margin-top: 40px;
+    }
+
+    .mb-100 {
+        margin-bottom: 30px;
+    }
+
+    .mb-125 {
+        margin-bottom: 0px;
+    }
+
+    .pt-150 {
+        padding-top: 60px;
+    }
+
+    .pb-150 {
+        padding-bottom: 60px;
+    }
+
+    .pb-140 {
+        padding-bottom: 75px;
+    }
+
+    .pt-140 {
+        padding-top: 75px;
+    }
+}
+
+/* SM Small Device :550px. */
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+
+
+    .menu-bottom-left ul li a {
+        font-size: 12px;
+    }
+
+    .menu-bottom-left ul li {
+        margin-right: 25px;
+    }
+
+}
